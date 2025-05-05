@@ -31,7 +31,7 @@ export default function Home() {
       <div className="text-3xl sm:text-7xl text-center font-bold pt-[2rem]">WEB WEAVER</div>
       <div className="w-full grow flex justify-center items-center">
         <form action={onSubmitHandler} className="flex flex-col w-full max-w-lg items-center justify-center gap-[1rem]">
-          <textarea name="prompt" id="prompt" className="w-full rounded-md border min-h-[10rem] p-[1rem]" placeholder="create a portfolio website..."></textarea>
+          <textarea name="prompt" id="prompt" className="w-full rounded-md border min-h-[10rem] p-[1rem]" placeholder="create a todo app..."></textarea>
           <FormSubmit text="Generate Project"/>
         </form>
       </div>
