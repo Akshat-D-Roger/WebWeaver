@@ -54,7 +54,7 @@ async function onSubmitHandler(formData:FormData){
                     {genPreview && 
                         <div className='p-[1rem] rounded-md bg-white text-center'>
                             <Loader/>
-                            <div className='text-neutral-500 text-center text-sm font-semibold'>generating preview</div>
+                            <div className='text-neutral-500 text-center text-sm font-semibold'>generating preview (works only with laptop/desktop)</div>
                         </div>
                     }
 
